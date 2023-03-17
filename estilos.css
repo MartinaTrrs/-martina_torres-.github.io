@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif
+}
+* {
+    text-align: center;
+    margin: 0;
+    }
+p{
+    line-height: 2;
+    }
+h1{
+    margin: 30px;
+    color: #ffffff;
+    font-size: 100px;
+    }  
+h2{
+    margin: 30px;
+    color: #ffffff;
+    font-size: 60px;
+    }
+h3{
+    margin: 30px;
+    color: #005d81;
+    font-size: 30px;
+    }
+
+ul.barra {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #005c81c7;
+        position: fixed
+        }
+li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    text-align:center;
+    padding: 16px
+    }
+
+#inicio {
+    background-color:rgb(27, 157, 189);
+    margin-top: 0px;
+    padding: 30px   
+    }
+
+#sobremi {
+    background-image: url("https://www.telasaguila.com/wp-content/uploads/2019/04/TELAS-BLOGS-Y-NEWS_ABRIL_TIPOS-DE-COSTURAS-_BLOGS-Y-NEWS_2-BLOG-1024x428.png");
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    padding: 150px
+    }
+#yo{
+    background-color: #ffffffa6;
+    padding: 16px;
+    }
+#sm{
+    display: inline;
+    background-color: #ffffffa6;
+    font-style: italic;
+    color: #005d81;
+    font-size: 60px       
+    }
+
+#curriculum { 
+    background-color:rgb(138, 223, 245);
+    padding: 30px
+    }
+.ed{
+    border-style: double;
+    margin: 10px;
+    }
+.exp{
+    border-style: double;
+    margin: 10px;
+    }
+
+#contacto {    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1300px;
+    background-color: #005d81;
+    }
+ul.contacto{
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #032938a6;
+    padding-inline-start: 0px;
+    display: inline-block   
+    }  
+img{
+    border-radius: 200px; 
+    margin: 30px;
+    width: 350px;
+    }
+li{
+    color: #ffffff;
+    }
+    .oculto{
+        display: none;
+    }
+
+    .show{
+        display: block;
+    }
+        
+
+ .visible{
+    background-color: #0a8fc4;
+    padding: 300px;
+    font-family: cursive;
+    font-size: 40px;
+    color: #ffffff;
+ }   
+    .boton {
+        background-color: #4caf50;
+        border: none;
+        border-radius: 40px;
+        color: white;
+        padding: 15px 32px;
+        font-size: 1.2em;
+        box-shadow: 0px 0px 10px 0px #4caf50;
+        cursor: pointer;
+      }
+      
+      .boton {
+        box-shadow: none;
+        background-color: rgb(75, 75, 75);
+        color: #fff;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+      }
+      
+    
